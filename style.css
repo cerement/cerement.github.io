@@ -31,17 +31,17 @@ blockquote {
 	margin-right: 0;
 }
 
-blockquote[cite]:after {
-	content: "—" attr(cite);
-	display:block;
-}
-
 blockquote:before, q:before {
 	content: open-quote;
 }
 
 blockquote:after, q:after {
 	content: close-quote;
+}
+
+blockquote[cite]:after {
+	content: "—" attr(cite);
+	display:block;
 }
 
 .centered-scarab {
