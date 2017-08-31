@@ -39,11 +39,6 @@ blockquote:after, q:after {
 	content: close-quote;
 }
 
-blockquote[cite]:after {
-	content: "—" attr(cite);
-	display:block;
-}
-
 .centered-scarab {
 	width: 160px;
 	margin-left: auto;
