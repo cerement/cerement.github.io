@@ -26,10 +26,13 @@ blockquote, q {
 	quotes: "\201C""\201D""\2018""\2019";
 }
 
-blockquote:before, q:before {
-	content: open-quote;
+blockquote {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+blockquote:before, q:before {
+	content: open-quote;
 }
 
 blockquote:after, q:after {
