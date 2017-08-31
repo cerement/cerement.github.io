@@ -28,6 +28,8 @@ blockquote, q {
 
 blockquote:before, q:before {
 	content: open-quote;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 blockquote:after, q:after {
