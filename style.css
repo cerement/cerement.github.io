@@ -22,6 +22,10 @@ h1 {
 	text-align: center;
 }
 
+blockquote, q {
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
 .centered-scarab {
 	width: 160px;
 	margin-left: auto;
