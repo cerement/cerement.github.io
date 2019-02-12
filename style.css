@@ -43,6 +43,10 @@ blockquote:after, q:after {
 	content: close-quote;
 }
 
+figcaption {
+	margin-left: 1rem;
+}
+
 figcaption:before {
 	content: "—";
 }
