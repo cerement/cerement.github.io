@@ -26,6 +26,13 @@ h1 {
 	font-weight: normal;
 }
 
+figcaption, strong, em, b, i {
+	font-family: "Kotta One", serif;
+	font-size: 0.94rem;
+	font-weight: normal;
+	font-style: normal;
+}
+
 blockquote, q {
 	quotes: "\201C""\201D""\2018""\2019";
 }
@@ -49,8 +56,6 @@ blockquote:after, q:after {
 
 figcaption {
 	margin-left: 1rem;
-	font-family: "Kotta One", serif;
-	font-size: 0.94rem;
 }
 
 figcaption:before {
