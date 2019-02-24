@@ -26,7 +26,7 @@ h1 {
 	font-weight: normal;
 }
 
-figcaption, strong, em, b, i {
+cite, strong, em, b, i {
 	font-family: "Kotta One", serif;
 	font-size: 0.94rem;
 	font-weight: normal;
