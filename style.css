@@ -27,6 +27,14 @@ h1 {
 	font-weight: normal;
 }
 
+h2 {
+	margin-top: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Kotta One', serif;
+	font-weight: normal;
+}
+
 cite, strong, em, b, i {
 	font-family: "Kotta One", serif;
 	font-size: 0.94rem;
