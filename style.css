@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Alice');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 @import url('https://fonts.googleapis.com/css?family=Kotta+One');
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
@@ -39,7 +38,7 @@ h2 {
 
 cite, strong, em, b, i {
 	font-family: "Kotta One", serif;
-	font-size: 1.11rem;
+	font-size: 1.1rem;
 	font-weight: normal;
 	font-style: normal;
 }
