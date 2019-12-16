@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Alice');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 @import url('https://fonts.googleapis.com/css?family=Kotta+One');
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
 
 html {
 	font-size: 16px;
 	line-height: 1.25;
-	font-family: 'Alice', serif;
+	font-family: 'IBM Plex Sans', serif;
 	color: #2F3F4F;
 	background-color: #FFF4D9;
 }
