@@ -41,6 +41,13 @@ cite, strong, em, b, i {
 	font-style: normal;
 }
 
+figure {
+	margin-top: 1rem;
+	border-top: 1px solid black;
+	padding-top: 1rem;
+	margin-bottom: 2rem;
+}
+
 blockquote, q {
 	quotes: "\201C""\201D""\2018""\2019";
 }
