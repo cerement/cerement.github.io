@@ -8,7 +8,7 @@ html {
 	font-family: 'Work Sans', serif;
 	color: #1D2B53; /* Pico-8 dark-blue */
 	background-color: #FFF1E8; /* Pico-8 white */
-	hanging-punctuation: first allow-end;
+	hanging-punctuation: first allow-end; /* oh hey, not supported */
 }
 
 body {
