@@ -8,7 +8,7 @@ html {
 	font-family: 'Work Sans', serif;
 	color: #1D2B53; /* Pico-8 dark-blue */
 	background-color: #FFF1E8; /* Pico-8 white */
-	hanging-punctuation: first allow-end; /* oh hey, not supported */
+	/* hanging-punctuation: first allow-end; */ /* not supported */
 }
 
 body {
@@ -53,6 +53,7 @@ figure {
 
 blockquote, q {
 	quotes: "\201C""\201D""\2018""\2019";
+	text-indent: -0.5em; /* faux hanging punctuation */
 }
 
 blockquote {
