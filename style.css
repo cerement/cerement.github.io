@@ -6,8 +6,8 @@ html {
 	font-size: 16px;
 	line-height: 1.25;
 	font-family: 'Work Sans', serif;
-	color: #2F3F4F;
-	background-color: #FFF4D9;
+	color: #1D2B53; /* Pico-8 dark-blue */
+	background-color: #FFF1E8; /* Pico-8 white */
 }
 
 body {
@@ -25,7 +25,7 @@ h1 {
 	font-size: 3rem;
 	font-family: 'Unica One', sans-serif;
 	font-weight: normal;
-	color: #DC322F;
+	color: #FF004D; /* Pico-8 red */
 }
 
 h2 {
@@ -45,7 +45,7 @@ cite, strong, em, b, i {
 
 figure {
 	margin-top: 1rem;
-	border-top: 1px solid #DC322F;
+	border-top: 1px solid #FF004D; /* Pico-8 red */
 	padding-top: 0.5rem;
 	margin-bottom: 3rem;
 }
