@@ -37,16 +37,18 @@ h2 {
 	font-weight: normal;
 }
 
+/*
 cite, strong, em, b, i {
 	font-family: "Kotta One", serif;
-	font-size: 1.07rem;
+	font-size: 1.07rem; 
 	font-weight: normal;
 	font-style: normal;
 }
+*/
 
 figure {
 	margin-top: 1rem;
-	border-top: 3px solid #FF004D; /* Pico-8 red */
+	border-top: 2px solid #FF004D; /* Pico-8 red */
 	padding-top: 0.5rem;
 	margin-bottom: 3rem;
 }
@@ -71,10 +73,6 @@ blockquote:before, q:before {
 
 blockquote:after, q:after {
 	content: close-quote;
-}
-
-figcaption {
-	margin-left: 1rem;
 }
 
 figcaption:before {
