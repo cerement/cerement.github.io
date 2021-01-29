@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1');
+
 @import url('https://fonts.googleapis.com/css?family=Kotta+One');
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
 
@@ -38,13 +40,17 @@ h2 {
 }
 
 /*
-cite, strong, em, b, i {
+strong, em, b {
 	font-family: "Kotta One", serif;
 	font-size: 1.07rem; 
 	font-weight: normal;
 	font-style: normal;
 }
 */
+
+cite, i {
+	font-style: italic;
+}
 
 figure {
 	margin-top: 1rem;
