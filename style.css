@@ -6,7 +6,7 @@ html {
 	font-size: 16px;
 	line-height: 1.25;
 	font-family: 'Work Sans', serif;
-	color: #1D2B53; /* Pico-8 dark-blue */
+	color: #000000; /* Pico-8 dark-blue #1D2B53 */
 	background-color: #FFF1E8; /* Pico-8 white */
 	/* hanging-punctuation: first allow-end; */ /* not supported */
 }
