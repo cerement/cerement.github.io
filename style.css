@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Kotta+One');
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
@@ -38,22 +38,17 @@ h2 {
 	font-weight: normal;
 }
 
-/*
-strong, em, b {
-	font-family: "Kotta One", serif;
-	font-size: 1.07rem; 
-	font-weight: normal;
-	font-style: normal;
+strong, b {
+	font-weight: bold;
 }
-*/
 
-cite, i {
+cite, i, em {
 	font-style: italic;
 }
 
 figure {
 	margin-top: 1rem;
-	border-top: 2px solid #FF004D; /* Pico-8 red */
+	border-top: 3px solid #FF004D; /* Pico-8 red */
 	padding-top: 0.5rem;
 	margin-bottom: 3rem;
 }
