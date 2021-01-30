@@ -51,7 +51,7 @@ figure {
 
 blockquote, q {
 	quotes: "\201C""\201D""\2018""\2019"; /* proper curly quotes */
-	text-indent: -0.5em; /* faux hanging punctuation */
+	text-indent: -0.4em; /* faux hanging punctuation */
 }
 
 blockquote {
