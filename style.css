@@ -1,13 +1,15 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+/* Google Fonts doesn’t support font-feature-settings */
+
 @import url('https://rsms.me/inter/inter.css');
 /* Inter by Rasmus Andersson: https://github.com/rsms/inter/ https://rsms.me/inter/ */
 
 html {
-	font-family: 'Inter', serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
-	font-feature-settings: "ss03", "cv01", "cv10";
-	color: #000000;
+	font-feature-settings: "ss03", "cv01", "cv10"; /* r curves before round letters, curve on 1, tail on G */
+	color: #000000; /* solid black */
 	background-color: #FFF1E8; /* Pico-8 white */
 	/* hanging-punctuation: first allow-end; */ /* not supported */
 }
@@ -35,7 +37,7 @@ h2 {
 	font-weight: normal;
 }
 
-strong, b, cite, i, em {
+strong, b, cite, i, em { /* bold as only emphasis */
 	font-weight: bold;
 	font-style: normal;
 }
@@ -48,7 +50,7 @@ figure {
 }
 
 blockquote, q {
-	quotes: "\201C""\201D""\2018""\2019";
+	quotes: "\201C""\201D""\2018""\2019"; /* proper curly quotes */
 	text-indent: -0.5em; /* faux hanging punctuation */
 }
 
