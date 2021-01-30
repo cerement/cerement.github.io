@@ -2,9 +2,10 @@
 /* Inter by Rasmus Andersson: https://github.com/rsms/inter/ https://rsms.me/inter/ */
 
 html {
+	font-family: 'Inter', serif;
 	font-size: 16px;
 	line-height: 1.4;
-	font-family: 'Inter', serif;
+	font-feature-settings: "ss03", "cv01", "cv10";
 	color: #000000;
 	background-color: #FFF1E8; /* Pico-8 white */
 	/* hanging-punctuation: first allow-end; */ /* not supported */
