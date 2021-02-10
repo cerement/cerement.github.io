@@ -42,9 +42,12 @@ strong, b, cite, i, em { /* bold as only emphasis */
 	font-style: normal;
 }
 
+.spacer-rule {
+	border-top: 3px solid #FF004D; /* Pico-8 red */
+}
+
 figure {
 	margin-top: 1rem;
-	border-top: 3px solid #FF004D; /* Pico-8 red */
 	padding-top: 0.5rem;
 	margin-bottom: 3rem;
 }
